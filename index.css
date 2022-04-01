@@ -38,6 +38,18 @@ li{
 li:hover{
     background-color: rgb(119, 38, 38);
     cursor: pointer;
-    color: burlywood;
+    color: rgb(238, 237, 237);
     transition: all 1s;
+    border: 0.3px solid black;
+}
+
+@media (max-width: 760px) {
+    ul {
+        margin: 130px 0 0 0;
+        flex-direction: column;
+    }
+  
+    li{
+        background-color: brown;
+    }
 }
